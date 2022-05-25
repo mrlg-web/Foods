@@ -147,3 +147,25 @@ html {
 }
 
 /* End of Section 2 */
+
+/* Section 3 */
+.section-3 {
+    background-color: #333;
+    padding: 5rem 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.food-img {
+    width: 24vw;
+    height: 15vw;
+    object-fit: cover;
+    /* "object-fit: cover;" -> mantains the quality of the photo - no strech */
+}
+
+/* End Section 3 */
